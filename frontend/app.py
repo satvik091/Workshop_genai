@@ -3,7 +3,7 @@ import requests
 
 # Connectivity to backend
 
-backend_url = "http://127.0.0.1:8000/predict"
+backend_url = "https://satvik091-workshop-genai-backendserver-udal4b.streamlit.app/"
 
 st.title("Sentiment Analysis App")
 st.write("Enter text to analyze its sentiments...")
